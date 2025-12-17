@@ -2,14 +2,26 @@
 
 ## General
 
-#### 1. listing all the users
+#### Hiding or trimming command line path folders from its beginning
+
+```
+PROMPT_DIRTRIM=1
+```
+
+### Users and Groups
+
+#### Listing all the users
 
 ```
 compgen -u
 ```
 
-#### 2. Hiding or trimming command line path folders from its beginning
+#### List the current sessions
 
 ```
-PROMPT_DIRTRIM=1
+loginctl list-sessions
+```
+then
+```
+loginctl show-session <id>
 ```
