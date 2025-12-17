@@ -8,15 +8,17 @@
 PROMPT_DIRTRIM=1
 ```
 
+---
+
 ### Users and Groups
 
-#### Listing all the users
+#### 1. Listing all the users
 
 ```
 compgen -u
 ```
 
-#### List the current sessions
+#### 2. List the current sessions
 
 ```
 loginctl list-sessions
